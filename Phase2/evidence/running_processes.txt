@@ -1,0 +1,190 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.1  24636 15236 ?        Ss   01:22   0:00 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    01:22   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        S    01:22   0:00 [pool_workqueue_release]
+root           4  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-rcu_gp]
+root           5  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-sync_wq]
+root           6  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-kvfree_rcu_reclaim]
+root           7  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-slub_flushwq]
+root           8  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-netns]
+root          10  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/0:0H-events_highpri]
+root          13  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-mm_percpu_wq]
+root          14  0.0  0.0      0     0 ?        S    01:22   0:00 [ksoftirqd/0]
+root          15  0.0  0.0      0     0 ?        I    01:22   0:00 [rcu_sched]
+root          16  0.0  0.0      0     0 ?        S    01:22   0:00 [rcu_exp_par_gp_kthread_worker/0]
+root          17  0.0  0.0      0     0 ?        S    01:22   0:00 [rcu_exp_gp_kthread_worker]
+root          18  0.0  0.0      0     0 ?        S    01:22   0:00 [migration/0]
+root          19  0.0  0.0      0     0 ?        S    01:22   0:00 [cpuhp/0]
+root          20  0.0  0.0      0     0 ?        S    01:22   0:00 [cpuhp/1]
+root          21  0.0  0.0      0     0 ?        S    01:22   0:00 [migration/1]
+root          22  0.0  0.0      0     0 ?        S    01:22   0:00 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/1:0-mm_percpu_wq]
+root          24  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/1:0H-events_highpri]
+root          25  0.0  0.0      0     0 ?        S    01:22   0:00 [cpuhp/2]
+root          26  0.0  0.0      0     0 ?        S    01:22   0:00 [migration/2]
+root          27  0.0  0.0      0     0 ?        S    01:22   0:00 [ksoftirqd/2]
+root          29  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/2:0H-events_highpri]
+root          30  0.0  0.0      0     0 ?        S    01:22   0:00 [cpuhp/3]
+root          31  0.0  0.0      0     0 ?        S    01:22   0:00 [migration/3]
+root          32  0.0  0.0      0     0 ?        S    01:22   0:00 [ksoftirqd/3]
+root          33  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/3:0-events]
+root          34  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/3:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/u16:1-kvfree_rcu_reclaim]
+root          38  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/u16:3-events_unbound]
+root          39  0.0  0.0      0     0 ?        S    01:22   0:00 [kdevtmpfs]
+root          40  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-inet_frag_wq]
+root          41  0.0  0.0      0     0 ?        I    01:22   0:00 [rcu_tasks_kthread]
+root          42  0.0  0.0      0     0 ?        I    01:22   0:00 [rcu_tasks_rude_kthread]
+root          43  0.0  0.0      0     0 ?        I    01:22   0:00 [rcu_tasks_trace_kthread]
+root          44  0.0  0.0      0     0 ?        S    01:22   0:00 [kauditd]
+root          45  0.0  0.0      0     0 ?        S    01:22   0:00 [khungtaskd]
+root          46  0.0  0.0      0     0 ?        S    01:22   0:00 [oom_reaper]
+root          47  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-writeback]
+root          48  0.0  0.0      0     0 ?        S    01:22   0:00 [kcompactd0]
+root          49  0.0  0.0      0     0 ?        SN   01:22   0:00 [ksmd]
+root          50  0.0  0.0      0     0 ?        SN   01:22   0:00 [khugepaged]
+root          51  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-kblockd]
+root          52  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-blkcg_punt_bio]
+root          53  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-kintegrityd]
+root          54  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/2:1-events]
+root          55  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/1:1-mm_percpu_wq]
+root          56  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-tpm_dev_wq]
+root          57  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-edac-poller]
+root          58  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-devfreq_wq]
+root          59  0.0  0.0      0     0 ?        S    01:22   0:00 [watchdogd]
+root          60  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-quota_events_unbound]
+root          61  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/1:1H-kblockd]
+root          62  0.0  0.0      0     0 ?        S    01:22   0:00 [kswapd0]
+root          63  0.1  0.0      0     0 ?        I    01:22   0:01 [kdamond.0]
+root          67  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-kthrotld]
+root          68  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/u17:0]
+root          69  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-acpi_thermal_pm]
+root          70  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-mld]
+root          71  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-ipv6_addrconf]
+root          72  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/2:1H-kblockd]
+root          73  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-kstrp]
+root         170  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/3:1H-kblockd]
+root         186  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/0:1H-kblockd]
+root         210  0.0  0.0      0     0 ?        S    01:22   0:00 [scsi_eh_0]
+root         211  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-scsi_tmf_0]
+root         214  0.0  0.0      0     0 ?        I    01:22   0:00 [kworker/0:2-mm_percpu_wq]
+root         226  0.0  0.0      0     0 ?        S    01:22   0:00 [irq/14-vmwgfx]
+root         227  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-ttm]
+root         278  0.0  0.0      0     0 ?        S    01:22   0:00 [jbd2/sda3-8]
+root         279  0.0  0.0      0     0 ?        I<   01:22   0:00 [kworker/R-ext4-rsv-conversion]
+root         342  0.0  0.1  50052 16176 ?        Ss   01:23   0:00 /usr/lib/systemd/systemd-journald
+systemd+     354  0.0  0.0  89676  7600 ?        Ssl  01:23   0:00 /usr/lib/systemd/systemd-timesyncd
+root         373  0.0  0.0  15456  6028 ?        Ss   01:23   0:00 /usr/lib/systemd/systemd-userdbd
+root         375  0.0  0.1  38556 12400 ?        Ss   01:23   0:00 /usr/lib/systemd/systemd-udevd
+root         379  0.0  0.0      0     0 ?        S    01:23   0:00 [psimon]
+root         385  0.0  0.0      0     0 ?        S    01:23   0:00 [psimon]
+root         505  0.0  0.0      0     0 ?        I    01:23   0:00 [kworker/u16:5-flush-8:0]
+root         536  0.0  0.0   8200  4864 ?        Ss   01:23   0:00 /usr/sbin/haveged --Foreground --verbose=1
+root         558  0.0  0.0 309964  7476 ?        Ssl  01:23   0:00 /usr/libexec/accounts-daemon
+message+     560  0.0  0.0  10052  6264 ?        Ss   01:23   0:00 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+polkitd      563  0.0  0.1 383704 10216 ?        Ssl  01:23   0:00 /usr/lib/polkit-1/polkitd --no-debug --log-level=notice
+root         566  0.0  0.1  18128  8924 ?        Ss   01:23   0:00 /usr/lib/systemd/systemd-logind
+root         613  0.0  0.2 341000 20212 ?        Ssl  01:23   0:00 /usr/sbin/NetworkManager --no-daemon
+root         621  0.0  0.1 398308 12876 ?        Ssl  01:23   0:00 /usr/sbin/ModemManager
+root         641  0.0  0.0      0     0 ?        I<   01:23   0:00 [kworker/R-rpciod]
+root         642  0.0  0.0      0     0 ?        I<   01:23   0:00 [kworker/R-xprtiod]
+root         644  0.0  0.0   6904  2716 ?        Ss   01:23   0:00 /usr/sbin/cron -f
+root         647  0.0  0.0 381968  7552 ?        SLsl 01:23   0:00 /usr/sbin/lightdm
+root         658  1.8  2.0 466436 167360 tty7    Ssl+ 01:23   0:15 /usr/lib/xorg/Xorg :0 -seat seat0 -auth /var/run/lightdm/root/:0 -nolisten tcp vt7 -novtswitch
+root         659  0.0  0.0   7644  2144 tty1     Ss+  01:23   0:00 /usr/sbin/agetty --noreset --noclear --issue-file=/etc/issue:/etc/issue.d:/run/issue.d:/usr/lib/issue.d - linux
+root         687  0.0  0.0      0     0 ?        S    01:23   0:00 [psimon]
+rtkit        715  0.0  0.0  21312  2784 ?        SNsl 01:23   0:00 /usr/libexec/rtkit-daemon
+root         859  0.0  0.1 173044  8696 ?        Sl   01:23   0:00 lightdm --session-child 13 24
+rdube        888  0.0  0.1  22984 13052 ?        Ss   01:23   0:00 /usr/lib/systemd/systemd --user
+rdube        891  0.0  0.0  23588  4016 ?        S    01:23   0:00 (sd-pam)
+rdube        913  0.0  0.0   9040  5492 ?        Ss   01:23   0:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+rdube        914  0.5  0.1 108100 14332 ?        S<sl 01:23   0:04 /usr/bin/pipewire
+rdube        916  0.0  0.1 184244 10592 ?        SLsl 01:23   0:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+rdube        917  0.0  0.0   7020  3360 ?        Ss   01:23   0:00 /usr/bin/mpris-proxy
+rdube        918  0.0  0.2 494912 22284 ?        S<sl 01:23   0:00 /usr/bin/wireplumber
+rdube        919  0.0  0.0  84940  4856 ?        Ssl  01:23   0:00 /usr/bin/pipewire -c filter-chain.conf
+rdube        925  0.0  0.1 173128 10836 ?        S<Lsl 01:23   0:00 /usr/bin/pipewire-pulse
+rdube        933  0.0  0.5 839228 42492 ?        Ssl  01:23   0:00 xfce4-session
+rdube       1009  0.0  0.0 382492  7892 ?        Ssl  01:23   0:00 /usr/libexec/at-spi-bus-launcher
+rdube       1016  0.0  0.0   8612  4644 ?        S    01:23   0:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 12 --address=unix:path=/run/user/1000/at-spi/bus_0
+rdube       1026  0.0  0.0 170276  7816 ?        Sl   01:23   0:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+rdube       1034  0.0  0.0  10304  1940 ?        Ss   01:23   0:00 /usr/bin/ssh-agent -s
+rdube       1043  0.0  0.0  89716  3628 ?        SLsl 01:23   0:00 /usr/bin/gpg-agent --supervised
+rdube       1046  0.2  1.6 1286592 134076 ?      Sl   01:23   0:02 xfwm4
+rdube       1051  0.0  0.1 314108  8428 ?        Ssl  01:23   0:00 /usr/libexec/gvfsd
+rdube       1057  0.0  0.0 325788  7416 ?        Sl   01:23   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+rdube       1089  0.0  0.3 358652 29152 ?        Sl   01:23   0:00 xfsettingsd
+rdube       1095  0.0  0.0 165944  6132 ?        Ssl  01:23   0:00 /usr/libexec/dconf-service
+rdube       1096  0.0  0.7 1135928 63560 ?       Sl   01:23   0:00 xfce4-panel
+rdube       1105  0.0  0.3 504384 28344 ?        Sl   01:23   0:00 Thunar --daemon
+rdube       1113  0.0  0.7 1222020 59972 ?       Sl   01:23   0:00 xfdesktop
+rdube       1118  0.0  0.5 1186420 43716 ?       Sl   01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libwhiskermenu.so 1 16777223 whiskermenu Whisker Menu Show a menu to easily access installed applications
+rdube       1146  0.0  0.0 169704  6736 ?        Ssl  01:23   0:00 /usr/libexec/gvfsd-metadata
+rdube       1168  0.0  0.3 439328 29216 ?        Sl   01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libsystray.so 14 16777229 systray Status Tray Plugin Provides status notifier items (application indicators) and legacy systray items
+rdube       1174  0.4  0.3 283220 31092 ?        Sl   01:23   0:03 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libgenmon.so 15 16777230 genmon Generic Monitor Show output of a command.
+rdube       1176  0.0  0.4 1038068 40288 ?       Sl   01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libpulseaudio-plugin.so 16 16777231 pulseaudio PulseAudio Plugin Adjust the audio volume of the PulseAudio sound system
+rdube       1178  0.0  0.4 1170052 38104 ?       Sl   01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libnotification-plugin.so 17 16777232 notification-plugin Notification Plugin Notification plugin for the Xfce panel
+rdube       1180  0.0  0.4 963360 38100 ?        Sl   01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libxfce4powermanager.so 18 16777233 power-manager-plugin Power Manager Plugin Display the battery levels of your devices and control the brightness of your display
+rdube       1190  0.0  0.4 1102668 38008 ?       Sl   01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/panel/wrapper-2.0 /usr/lib/aarch64-linux-gnu/xfce4/panel/plugins/libactions.so 2200 16777234 actions Action Buttons Log out, lock or other system actions
+rdube       1266  0.0  0.2 434264 23672 ?        Ssl  01:23   0:00 /usr/lib/aarch64-linux-gnu/xfce4/notifyd/xfce4-notifyd
+root        1277  0.0  0.1 320280 10816 ?        Ssl  01:23   0:00 /usr/libexec/upowerd
+rdube       1461  0.0  0.5  74080 42016 ?        S    01:23   0:00 /usr/bin/python3 /usr/share/system-config-printer/applet.py
+rdube       1462  0.0  0.2 274364 20148 ?        Sl   01:23   0:00 /usr/libexec/polkit-mate-authentication-agent-1
+rdube       1469  0.0  0.5 1264684 44212 ?       Sl   01:23   0:00 nm-applet
+rdube       1471  0.0  0.7 617192 63680 ?        Sl   01:23   0:00 /usr/bin/python3 /usr/bin/blueman-applet
+rdube       1478  0.0  0.1 332304  8384 ?        Sl   01:23   0:00 /usr/libexec/geoclue-2.0/demos/agent
+rdube       1487  0.0  0.2 415604 21228 ?        Sl   01:23   0:00 xfce4-power-manager
+rdube       1507  0.0  0.5 698396 41404 ?        Sl   01:23   0:00 xfce4-screensaver
+rdube       1528  0.0  0.1 793600  9304 ?        Sl   01:23   0:00 xiccd
+rdube       1530  0.0  0.0  12904  2032 ?        Ssl  01:23   0:00 xcape -e Super_L Control_L Escape
+colord      1549  0.0  0.1 318960 15492 ?        Ssl  01:23   0:00 /usr/libexec/colord
+rdube       1686  0.0  0.1 392224 11700 ?        Ssl  01:23   0:00 /usr/libexec/gvfs-udisks2-volume-monitor
+root        1690  0.0  0.1 482284 14572 ?        Ssl  01:23   0:00 /usr/libexec/udisks2/udisksd
+rdube       1704  0.0  0.0 308652  6768 ?        Ssl  01:23   0:00 /usr/libexec/gvfs-goa-volume-monitor
+rdube       1711  0.0  0.0 308752  6840 ?        Ssl  01:23   0:00 /usr/libexec/gvfs-mtp-volume-monitor
+rdube       1716  0.0  0.0 310056  7260 ?        Ssl  01:23   0:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+rdube       1721  0.0  0.1 390816  8828 ?        Ssl  01:23   0:00 /usr/libexec/gvfs-afc-volume-monitor
+rdube       1737  0.0  0.1 535832  9552 ?        Sl   01:23   0:00 /usr/libexec/gvfsd-trash --spawner :1.23 /org/gtk/gvfs/exec_spaw/0
+rdube       1749  0.0  0.2 384808 19980 ?        Ssl  01:23   0:00 /usr/libexec/bluetooth/obexd
+rdube       1983  0.1  0.8 817376 68288 ?        Rl   01:23   0:01 /usr/bin/qterminal
+rdube       1985  0.0  0.2 644300 20608 ?        Ssl  01:23   0:00 /usr/libexec/xdg-desktop-portal
+rdube       1995  0.0  0.0 309600  6744 ?        Ssl  01:23   0:00 /usr/libexec/xdg-permission-store
+rdube       2000  0.0  0.0 557500  7364 ?        Ssl  01:23   0:00 /usr/libexec/xdg-document-portal
+root        2006  0.0  0.0   2300  1620 ?        Ss   01:23   0:00 fusermount3 -o rw,nosuid,nodev,fsname=portal,auto_unmount,subtype=portal -- /run/user/1000/doc
+rdube       2011  0.0  0.2 488916 21688 ?        Ssl  01:23   0:00 /usr/libexec/xdg-desktop-portal-gtk
+rdube       2020  0.1  0.0  10788  5984 pts/0    Ss   01:23   0:01 /usr/bin/zsh
+rdube       3363  6.1  6.7 3642880 544044 ?      Sl   01:25   0:40 /usr/lib/firefox-esr/firefox-esr
+rdube       3368  0.0  0.0  20356  3320 ?        Sl   01:25   0:00 /usr/lib/firefox-esr/crashhelper 3363 9 /tmp/ 11
+rdube       3456  0.0  0.5 231840 45940 ?        Sl   01:25   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20260317093326 -prefsHandle 0:34473 -prefMapHandle 1:271417 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {17a1ce0b-6ea3-4deb-a368-1d97cc09b8d0} -parentPid 3363 -crashReporter 5 -crashHelper 6 -appDir /usr/lib/firefox-esr/browser 1 socket
+rdube       3476  0.1  1.7 2483752 138364 ?      Sl   01:25   0:01 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:34598 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {fc89d271-77c3-4c47-86c2-6efc770b56ea} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 2 tab
+rdube       3483  0.5  0.7 429580 59100 ?        Sl   01:25   0:03 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20260317093326 -prefsHandle 0:34598 -prefMapHandle 1:271417 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {e2be8980-358d-4b9b-bbf4-ece1d5c2bb30} -parentPid 3363 -crashReporter 5 -crashHelper 6 -appDir /usr/lib/firefox-esr/browser 3 rdd
+pcscd       3583  0.0  0.0 258184  7200 ?        Ssl  01:25   0:00 /usr/sbin/pcscd --foreground --auto-exit
+rdube       3613  0.0  1.3 2464456 106128 ?      Sl   01:26   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:43062 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {c84c1286-c356-4723-bd41-126092882cee} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 4 tab
+rdube       3647  0.0  0.8 359668 65508 ?        Sl   01:26   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -parentBuildID 20260317093326 -sandboxingKind 0 -prefsHandle 0:43155 -prefMapHandle 1:271417 -sandboxReporter 2 -chrootClient 3 -ipcHandle 4 -initialChannelId {c183db6b-6e24-471c-9dd8-39d7cf371fe1} -parentPid 3363 -crashReporter 5 -crashHelper 6 -appDir /usr/lib/firefox-esr/browser 5 utility
+rdube       4061  0.0  0.1 119892  8828 ?        Ssl  01:26   0:00 /usr/bin/speech-dispatcher -s -t 0
+rdube       4073  0.0  0.0      0     0 ?        Z    01:26   0:00 [sd_espeak-ng-mb] <defunct>
+rdube       4081  0.0  0.1  26564  9032 ?        S    01:26   0:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/espeak-ng.conf
+rdube       4091  0.0  0.0 165780  5528 ?        Sl   01:26   0:00 /usr/lib/speech-dispatcher-modules/sd_dummy /etc/speech-dispatcher/modules/dummy.conf
+rdube       4094  0.0  0.1  26672  9028 ?        S    01:26   0:00 /usr/lib/speech-dispatcher-modules/sd_espeak-ng /etc/speech-dispatcher/modules/
+rdube       4360  8.2  8.0 3159712 649400 ?      Sl   01:26   0:50 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40413 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {9da91335-af8c-4e16-80c0-e2c79d37860f} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 11 tab
+rdube       4800  0.1  1.5 2518156 126432 ?      Sl   01:27   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40413 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {d587a7dc-2f83-48a2-b909-063259df00be} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 13 tab
+rdube       5084  0.0  0.8 817368 68204 ?        Sl   01:27   0:00 /usr/bin/qterminal
+rdube       5091  0.0  0.0  10696  5996 pts/2    Ss+  01:27   0:00 /usr/bin/zsh
+rdube       5217  0.0  1.2 2441796 98456 ?       Sl   01:28   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40413 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {f33d2e2d-bfea-402d-9a1d-df851ed5450f} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 15 tab
+rdube       5283  0.0  1.1 2439440 96764 ?       Sl   01:28   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40413 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {cb39edcb-59c4-4be7-a77a-a7778b566ee5} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 16 tab
+rdube       5385  0.0  1.2 2449692 104016 ?      Sl   01:28   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40413 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {70342003-37f8-4da4-9b12-6e12de48ebb3} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 18 tab
+root        5575  0.0  0.0      0     0 ?        I    01:28   0:00 [kworker/0:0-events]
+root        5803  0.0  0.0      0     0 ?        I    01:28   0:00 [kworker/2:0-mm_percpu_wq]
+rdube       5905  0.0  0.8 817380 68380 ?        Sl   01:28   0:00 /usr/bin/qterminal
+rdube       5912  0.0  0.0  10400  5724 pts/3    Ss+  01:28   0:00 /usr/bin/zsh
+root        6520  0.0  0.0      0     0 ?        I    01:30   0:00 [kworker/3:1-mm_percpu_wq]
+root        7254  0.0  0.0      0     0 ?        I<   01:31   0:00 [kworker/R-cfg80211]
+rdube       8018  0.0  1.0 2427916 81784 ?       Sl   01:32   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40465 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {ef4cadcc-b49a-4bd1-b1ab-f334d841c68e} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 24 tab
+root        8438  0.0  0.0  15984  6472 ?        S    01:33   0:00 systemd-userwork: waiting...
+root        8439  0.0  0.0  15984  6476 ?        S    01:33   0:00 systemd-userwork: waiting...
+root        8554  0.0  0.0  16124  6488 ?        S    01:33   0:00 systemd-userwork: waiting...
+rdube       8993  0.0  1.0 2427916 83796 ?       Sl   01:34   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40465 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {fb702988-0573-47f5-9e9e-66acb802fb47} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 25 tab
+root        9421  0.0  0.0      0     0 ?        I    01:35   0:00 [kworker/3:2-mm_percpu_wq]
+rdube       9898  0.1  1.0 2427916 81236 ?       Sl   01:36   0:00 /usr/lib/firefox-esr/firefox-esr -contentproc -isForBrowser -prefsHandle 0:40501 -prefMapHandle 1:271417 -jsInitHandle 2:242716 -parentBuildID 20260317093326 -sandboxReporter 3 -chrootClient 4 -ipcHandle 5 -initialChannelId {a78c6fd5-f3bc-4edc-9096-d2d1e46c3e39} -parentPid 3363 -crashReporter 6 -crashHelper 7 -greomni /usr/lib/firefox-esr/omni.ja -appomni /usr/lib/firefox-esr/browser/omni.ja -appDir /usr/lib/firefox-esr/browser 26 tab
+root        9981  0.0  0.0      0     0 ?        I    01:36   0:00 [kworker/0:1-events]
+rdube      10274  0.0  0.0   9176  3924 pts/0    R+   01:37   0:00 ps aux

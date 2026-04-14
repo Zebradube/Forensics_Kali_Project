@@ -1,0 +1,5 @@
+Netid State Recv-Q Send-Q  Local Address:Port   Peer Address:PortProcess                                 
+udp   ESTAB 0      0      10.0.2.15%eth0:68         10.0.2.2:67                                          
+tcp   ESTAB 0      0           10.0.2.15:41628 34.107.243.93:443  users:(("firefox-esr",pid=3363,fd=158))
+tcp   ESTAB 0      0           10.0.2.15:37458 151.101.17.91:443  users:(("firefox-esr",pid=3363,fd=18)) 
+tcp   ESTAB 0      0           10.0.2.15:36278   23.39.185.3:443  users:(("firefox-esr",pid=3363,fd=147))

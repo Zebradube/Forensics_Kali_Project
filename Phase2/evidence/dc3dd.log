@@ -1,0 +1,37 @@
+
+dc3dd 7.2.646 started at 2026-04-12 00:41:40 -0400
+compiled options:
+command line dc3dd if=/dev/sda of=/home/rdube/Phase2/evidence/kali_disk.img hash=sha256 log=/home/rdube/Phase2/evidence/dc3dd.log
+device size: 83886080 sectors (probed),   42,949,672,960 bytes
+sector size: 512 bytes (probed)
+
+dc3dd 7.2.646 started at 2026-04-12 14:46:24 -0400
+compiled options:
+command line dc3dd if=/dev/sda of=/home/rdube/Phase2/evidence/kali_disk.img hash=sha256 log=/home/rdube/Phase2/evidence/dc3dd.log
+device size: 83886080 sectors (probed),   42,949,672,960 bytes
+sector size: 512 bytes (probed)
+
+dc3dd 7.2.646 started at 2026-04-12 15:28:31 -0400
+compiled options:
+command line dc3dd if=/dev/sda of=/home/rdube/Phase2/evidence/kali_disk.img hash=sha256 log=/home/rdube/Phase2/evidence/dc3dd.log
+device size: 83886080 sectors (probed),   42,949,672,960 bytes
+sector size: 512 bytes (probed)
+
+dc3dd 7.2.646 started at 2026-04-12 16:06:56 -0400
+compiled options:
+command line dc3dd if=/dev/sda of=/home/rdube/Phase2/evidence/kali_disk.img hash=sha256 log=/home/rdube/Phase2/evidence/dc3dd.log
+device size: 83886080 sectors (probed),   42,949,672,960 bytes
+sector size: 512 bytes (probed)
+[!!] writing to `/home/rdube/Phase2/evidence/kali_disk.img': No space left on device
+ 22048440320 bytes ( 21 G ) copied ( 51% ), 134.457 s, 156 M/s
+
+input results for device `/dev/sda':
+   43063360 sectors in
+   0 bad sectors replaced by zeros
+   11ce4e9c334f7c4ad0079d50a5b4579da45a853aefb44004d2fdbcd3fc387f4e (sha256)
+
+output results for file `/home/rdube/Phase2/evidence/kali_disk.img':
+   43063168 sectors out
+
+dc3dd failed at 2026-04-12 16:09:10 -0400
+
